@@ -1,0 +1,26 @@
+body {
+  background-color: #DDD;
+  padding: 0;
+}
+
+#game {
+ /* border: 1px solid black;*/
+  display: block;
+  margin: 1em auto;
+}
+
+#catBlood {
+  display : none;
+}
+
+#foxBlood {
+  display : none;
+}
+
+#catLieved {
+  display : none;
+}
+
+#foxLieved {
+  display : none;
+}
