@@ -1,13 +1,23 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Hello world!</title>
-        <script src="a.js"></script>
-    </head>
-<body>
-    Hello world frohub pages!!
-    One more line.
-    <div>
-        ABC!!!
-    </div>
-</body>
+  <head>
+    <meta charset="utf-8">
+	<title>Шаблон странички с Canvas</title>
+	<link rel="stylesheet" href="main.css">
+	
+	<script src="main.js"></script>
+	<script src="tweenjs-0.6.2.min.js"></script>
+	<script src="easeljs-0.8.2.min.js"></script>
+  </head>
+  <body onload="init();">
+    <canvas id="game" width="980" height="640">
+	  
+	  У вас не работает Canvas, смените браузер или компьютер.
+	</canvas>
+	<img id="catBlood" src="catBlood.png">
+	<img id="foxBlood" src="foxBlood.png">
+	<img id="catLieved" src="catLieved.png">
+	<img id="foxLieved" src="foxLieved.png">
+	
+  </body>
 </html>
